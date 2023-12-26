@@ -14,7 +14,7 @@ use AMGPortal\Announcements\Repositories\EloquentAnnouncements;
 use AMGPortal\Plugins\Plugin;
 use AMGPortal\Support\Sidebar\Item;
 use AMGPortal\Announcements\Listeners\ActivityLogSubscriber;
-use AMGPortal\Plugins\Vanguard;
+use AMGPortal\Plugins\AMGPortal;
 
 class Announcements extends Plugin
 {
@@ -141,9 +141,9 @@ class Announcements extends Plugin
      */
     private function registerHooks()
     {
-        Vanguard::hook('navbar:items', NavbarItemsHook::class);
-        Vanguard::hook('app:styles', StylesHook::class);
-        Vanguard::hook('app:scripts', ScriptsHook::class);
+        AMGPortal::hook('navbar:items', NavbarItemsHook::class);
+        AMGPortal::hook('app:styles', StylesHook::class);
+        AMGPortal::hook('app:scripts', ScriptsHook::class);
     }
 
     /**
