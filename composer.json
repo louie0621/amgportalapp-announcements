@@ -1,0 +1,30 @@
+{
+    "name": "amgportal/announcements",
+    "description": "Announcements plugin for Vanguard",
+    "keywords": [
+        "laravel",
+        "amgportal",
+        "announcements"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0.2|^8.1",
+        "amgportal/plugins": "dev-master",
+        "spatie/laravel-query-builder": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "AMGPortal\\Announcements\\": "src/",
+            "AMGPortal\\Announcements\\Database\\Seeders\\": "database/seeders/",
+            "AMGPortal\\Announcements\\Database\\Factories\\": "database/factories/"
+        }
+    },
+     "autoload-dev": {
+        "psr-4": {
+            "AMGPortal\\Announcements\\Tests\\": "tests/"
+        }
+    }
+}
