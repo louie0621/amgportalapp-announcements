@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2|^8.1",
-        "amgportal/plugins": "^4.0",
+        "amgportalapp/plugins": "^4.0",
         "spatie/laravel-query-builder": "^5.0"
     },
     "require-dev": {
