@@ -77,7 +77,7 @@ directory and that it should be installed from there.
 Now, add the following to the composer's `require` section 
 
 ```
-"amgportal/announcements": "*"
+"amgportalapp/announcements": "*"
 ```
 
 And run `composer update`.
