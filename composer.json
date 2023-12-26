@@ -1,6 +1,6 @@
 {
     "name": "amgportalapp/announcements",
-    "description": "Announcements plugin for Vanguard",
+    "description": "Announcements plugin for AMGPortal",
     "keywords": [
         "laravel",
         "amgportal",
@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2|^8.1",
-        "amgportal/plugins": "dev-master",
+        "amgportal/plugins": "^4.0",
         "spatie/laravel-query-builder": "^5.0"
     },
     "require-dev": {
