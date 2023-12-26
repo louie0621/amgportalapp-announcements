@@ -11,14 +11,14 @@ To install the plugin first you will need to pull it via composer
 by running the following command
 
 ```
-composer require amgportal/announcements
+composer require amgportalapp/announcements
 ```
 
 The composer will install the plugin for you as well as it's dependencies.
 
 The next step is to register the plugin by adding the 
 `\AMGPortal\Announcements\Announcements::class` 
-to the list of AMGPortal plugins inside the `VanguardServiceProvider`:
+to the list of AMGPortal plugins inside the `AMGPortalServiceProvider`:
 
 ```php
 protected function plugins()
@@ -89,7 +89,7 @@ the changes to the plugin itself and customize it to fit your needs.
 The rest of the process is the same as when the plugin is installed 
 by directly fetching it via composer from the GitHub repository, so you
 will need to do all the same steps as above, which in short involves 
-updating the `VanguardServiceProvider` and running the commands to 
+updating the `AMGPortalServiceProvider` and running the commands to 
 publish plugin's static assets and to update the database.
 
 ## License
