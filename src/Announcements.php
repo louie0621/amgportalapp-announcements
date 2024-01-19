@@ -24,11 +24,11 @@ class Announcements extends Plugin
      */
     public function sidebar()
     {
-        return Item::create(__('Announcements'))
-            ->icon('fas fa-bullhorn')
-            ->route('announcements.index')
-            ->permissions('announcements.manage')
-            ->active('announcements*');
+        // return Item::create(__('Announcements'))
+        //     ->icon('fas fa-bullhorn')
+        //     ->route('announcements.index')
+        //     ->permissions('announcements.manage')
+        //     ->active('announcements*');
     }
 
     /**
